@@ -28,7 +28,7 @@ class Checked {
         }
     }
 
-    public static void main(String[] args) throws InterruptedException { // If exception call reaches here our program stops
+    public static void main(String[] args) throws InterruptedException {
         ancientCounter.start(); // Beginning of the world
         Thread.sleep(getRandomMillisecondsValue()); // Some time passes (Here we also call sleep but let JVM handle exception)
         attackAncient(); // Some treasure hunters were a bit reckless
